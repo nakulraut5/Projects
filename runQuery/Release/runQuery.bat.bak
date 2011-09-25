@@ -1,3 +1,0 @@
-call "D:\Softwares\Siemens\Teamcenter8\tc_menu\tc6_MYDB.bat"
-"D:\VS_WS\runQuery\Release\runQuery.exe"
-pause

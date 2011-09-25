@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2662627B-1B14-420B-A3D8-AD3DBEE0B998}</ProjectGuid>
-    <RootNamespace>runQuery</RootNamespace>
+    <ProjectGuid>{AE970CEC-ABBD-4523-838C-82F9754AE6FE}</ProjectGuid>
+    <RootNamespace>RunQuery</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -47,7 +47,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\Softwares\Siemens\Teamcenter8\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>D:\Softwares\Siemens\Teamcenter8\lib\*.lib;itk_main.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>D:\Softwares\Siemens\Teamcenter8\lib\*.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -56,7 +56,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>D:\Softwares\Siemens\Teamcenter8\include;D:\Softwares\Siemens\Teamcenter8\include_cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Softwares\Siemens\Teamcenter8\include;D:\Softwares\Siemens\Teamcenter8\include_cpp</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>IPLIB=none;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -65,11 +65,12 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>D:\Softwares\Siemens\Teamcenter8\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>D:\Softwares\Siemens\Teamcenter8\lib\*.lib;itk_main.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="collections.cpp" />
-    <ClCompile Include="runQuery.cpp" />
+    <ClCompile Include="RunQuery.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

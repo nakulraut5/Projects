@@ -1,0 +1,627 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:01:44
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:01:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:01:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:01:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:01:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:01:56
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:44
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:55
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:02:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:44
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 14:03:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-SEP-2011 14:04:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:37:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:37:52
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:37:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:37:57
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:37:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:38:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:38:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Nakul)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=tc9)(CID=(PROGRAM=D:\Projects\RunQuery\Release\RunQuery.exe)(HOST=NAKUL)(USER=nakul))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.1.0.5.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.1.0.5.0 - Production
+  Time: 25-MAY-2025 18:38:06
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
