@@ -1,0 +1,29 @@
+﻿Build started 5/25/2025 12:59:28 AM.
+     1>Project "D:\VS_WS\runQuery\runQuery\runQuery.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\runQuery.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Softwares\Siemens\Teamcenter8\include /ID:\Softwares\Siemens\Teamcenter8\include_cpp /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D IPLIB=none /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt collections.cpp runQuery.cpp
+         collections.cpp
+         runQuery.cpp
+     1>runQuery.cpp(167): error C2552: 'cEntries' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>runQuery.cpp(174): error C2065: 'make_unique' : undeclared identifier
+     1>runQuery.cpp(174): error C2062: type 'char' unexpected
+     1>runQuery.cpp(181): error C2664: 'QRY_execute' : cannot convert parameter 3 from 'std::basic_string<_Elem,_Traits,_Ax> *' to 'char **'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "D:\VS_WS\runQuery\runQuery\runQuery.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97
