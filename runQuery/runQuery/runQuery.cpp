@@ -61,132 +61,71 @@
 
 
 //SECOND CODE	
-//#include "header.h"
-//#include <memory>
-//#include <cstring>
-//
-//struct MemDeleter {
-//	void operator()(tag_t* ptr) const {
-//		if (ptr) MEM_free(ptr);
-//	}
-//};
-//
-//using namespace std;
-//
-//int ITK_user_main(int argc, char* argv[]) {
-//	printf("Utility started execution...\n");
-//	std::unique_ptr<tag_t, MemDeleter> tRawTags;
-//	int iFail = ITK_ok;
-//	iFail = ITK_auto_login();
-//
-//	if (iFail != ITK_ok) {
-//		printf("Auto login unsuccessful\n");
-//		return iFail;
-//	}
-//	printf("Auto login successful\n");
-//	tag_t tQryTag = NULLTAG;
-//	utils::report_error(QRY_find("General...", &tQryTag));
-//	if (tQryTag != NULLTAG) {
-//		printf("Query found\n");
-//		int tEntryCnt = 1;
-//		const char* cValue1 = "Item";
-//		 char* cEntries[] = {"Type"};
-//
-//		// Use smart pointer for dynamic array allocation
-//		unique_ptr<char*[]> cValues(new char*[tEntryCnt]);
-//		if (!cValues) {
-//			printf("Memory allocation failed for cValues\n");
-//			return 1;
-//		}
-//
-//		// Allocate memory for the first entry
-//		cValues[0] = new char[strlen(cValue1) + 1];
-//		if (!cValues[0]) {
-//			printf("Memory allocation failed for cValues[0]\n");
-//			return 2;
-//		}
-//
-//		// Copy string safely
-//		strcpy_s(cValues[0], strlen(cValue1) + 1, cValue1);
-//		int iCnt = 0;
-//		tag_t* tQryTags = nullptr;
-//
-//		// Smart pointer with custom deleter for query execution
-//		utils::report_error(QRY_execute(tQryTag, tEntryCnt, cEntries, cValues.get(), &iCnt, &tQryTags));
-//		tRawTags.reset(tQryTags);
-//		if (iCnt > 0) {
-//			printf("Query count = %d\n", iCnt);
-//		}
-//
-//		// Clean up dynamically allocated strings
-//		utils::cleanUpStrings(cValues.get(),tEntryCnt);
-//
-//	} else {
-//		printf("Query not found\n");
-//	}
-//
-//	return iFail;
-//}
-
 #include "header.h"
 #include <memory>
-#include <vector>
 #include <cstring>
 
 struct MemDeleter {
-    void operator()(tag_t* ptr) const {
-        if (ptr) MEM_free(ptr);
-    }
+	void operator()(tag_t* ptr) const {
+		if (ptr) MEM_free(ptr);
+	}
 };
 
 using namespace std;
 
 int ITK_user_main(int argc, char* argv[]) {
-    printf("Utility started execution...\n");
+	printf("Utility started execution...\n");
+	std::unique_ptr<tag_t, MemDeleter> tRawTags;
+	int iFail = ITK_ok;
+	iFail = ITK_auto_login();
 
-    std::unique_ptr<tag_t, MemDeleter> tRawTags;
-    int iFail;
-    if ((iFail = ITK_auto_login()) != ITK_ok) {
-        printf("Auto login unsuccessful\n");
-        return iFail;
-    }
+	if (iFail != ITK_ok) {
+		printf("Auto login unsuccessful\n");
+		return iFail;
+	}
+	printf("Auto login successful\n");
+	tag_t tQryTag = NULLTAG;
+	utils::report_error(QRY_find("General...", &tQryTag));
+	if (tQryTag != NULLTAG) {
+		printf("Query found\n");
+		int tEntryCnt = 1;
+		const char* cValue1 = "Item";
+		 char* cEntries[] = {"Type"};
 
-    printf("Auto login successful\n");
+		// Use smart pointer for dynamic array allocation
+		unique_ptr<char*[]> cValues(new char*[tEntryCnt]);
+		if (!cValues) {
+			printf("Memory allocation failed for cValues\n");
+			return 1;
+		}
 
-    tag_t tQryTag = NULLTAG;
-    utils::report_error(QRY_find("General...", &tQryTag));
+		// Allocate memory for the first entry
+		cValues[0] = new char[strlen(cValue1) + 1];
+		if (!cValues[0]) {
+			printf("Memory allocation failed for cValues[0]\n");
+			return 2;
+		}
 
-    if (tQryTag == NULLTAG) {
-        printf("Query not found\n");
-        return iFail;
-    }
+		// Copy string safely
+		strcpy_s(cValues[0], strlen(cValue1) + 1, cValue1);
+		int iCnt = 0;
+		tag_t* tQryTags = nullptr;
 
-    printf("Query found\n");
-    int tEntryCnt = 1;
-    const char* cValue1 = "Item";
-    vector<string> cEntries = {"Type"};
+		// Smart pointer with custom deleter for query execution
+		utils::report_error(QRY_execute(tQryTag, tEntryCnt, cEntries, cValues.get(), &iCnt, &tQryTags));
+		tRawTags.reset(tQryTags);
+		if (iCnt > 0) {
+			printf("Query count = %d\n", iCnt);
+		}
 
-    // Use std::vector for better memory management
-    vector<unique_ptr<char[]>> cValues;
-    cValues.reserve(tEntryCnt);
+		// Clean up dynamically allocated strings
+		utils::cleanUpStrings(cValues.get(),tEntryCnt);
 
-    // Allocate memory & copy data safely
-    cValues.emplace_back(make_unique<char[]>(strlen(cValue1) + 1));
-    strcpy_s(cValues[0].get(), strlen(cValue1) + 1, cValue1);
+	} else {
+		printf("Query not found\n");
+	}
 
-    int iCnt = 0;
-    tag_t* tQryTags = nullptr;
-
-    // Smart pointer with custom deleter for query execution
-    utils::report_error(QRY_execute(tQryTag, tEntryCnt, cEntries.data(), reinterpret_cast<char**>(cValues.data()), &iCnt, &tQryTags));
-    tRawTags.reset(tQryTags);
-
-    if (iCnt > 0) {
-        printf("Query count = %d\n", iCnt);
-    }
-
-    return iFail;
+	return iFail;
 }
-
 
 

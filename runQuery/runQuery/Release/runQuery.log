@@ -1,29 +1,24 @@
-﻿Build started 5/25/2025 12:59:28 AM.
+﻿Build started 5/25/2025 1:10:40 AM.
      1>Project "D:\VS_WS\runQuery\runQuery\runQuery.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Release\runQuery.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Release\runQuery.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Softwares\Siemens\Teamcenter8\include /ID:\Softwares\Siemens\Teamcenter8\include_cpp /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D IPLIB=none /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt collections.cpp runQuery.cpp
-         collections.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Softwares\Siemens\Teamcenter8\include /ID:\Softwares\Siemens\Teamcenter8\include_cpp /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D IPLIB=none /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt runQuery.cpp
          runQuery.cpp
-     1>runQuery.cpp(167): error C2552: 'cEntries' : non-aggregates cannot be initialized with initializer list
-                 'std::vector<_Ty>' : Types with a base are not aggregate
-                 with
-                 [
-                     _Ty=std::string
-                 ]
-     1>runQuery.cpp(174): error C2065: 'make_unique' : undeclared identifier
-     1>runQuery.cpp(174): error C2062: type 'char' unexpected
-     1>runQuery.cpp(181): error C2664: 'QRY_execute' : cannot convert parameter 3 from 'std::basic_string<_Elem,_Traits,_Ax> *' to 'char **'
-                 with
-                 [
-                     _Elem=char,
-                     _Traits=std::char_traits<char>,
-                     _Ax=std::allocator<char>
-                 ]
-                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-     1>Done Building Project "D:\VS_WS\runQuery\runQuery\runQuery.vcxproj" (build target(s)) -- FAILED.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS_WS\runQuery\Release\runQuery.exe" /NOLOGO /LIBPATH:D:\Softwares\Siemens\Teamcenter8\lib "D:\Softwares\Siemens\Teamcenter8\lib\*.lib" itk_main.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\runQuery.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VS_WS\runQuery\Release\runQuery.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS_WS\runQuery\Release\runQuery.lib" /MACHINE:X86 Release\collections.obj
+         Release\runQuery.obj
+         Generating code
+         Finished generating code
+     1>itk_main.obj : warning LNK4099: PDB 'vc80.pdb' was not found with 'itk_main.obj' or at 'D:\VS_WS\runQuery\Release\vc80.pdb'; linking object as if no debug info
+         runQuery.vcxproj -> D:\VS_WS\runQuery\Release\runQuery.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VS_WS\runQuery\Release\runQuery.exe;#1" /manifest Release\runQuery.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\runQuery.unsuccessfulbuild".
+         Touching "Release\runQuery.lastbuildstate".
+     1>Done Building Project "D:\VS_WS\runQuery\runQuery\runQuery.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.97
+Time Elapsed 00:00:01.34
