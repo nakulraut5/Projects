@@ -1,15 +1,11 @@
-﻿Build started 9/25/2011 6:49:14 PM.
-     1>Project "D:\Projects\RunQuery\RunQuery\RunQuery.vcxproj" on node 2 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Release\RunQuery.lastbuildstate".
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V2.0.50727\MSCORWKS.DLL' is denied.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\CLR.DLL' is denied.
-       InitializeBuildStatus:
+﻿Build started 9/10/2011 12:03:44 PM.
+     1>Project "D:\Projects\RunQuery\RunQuery\RunQuery.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
          Creating "Release\RunQuery.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Softwares\Siemens\Teamcenter8\include /ID:\Softwares\Siemens\Teamcenter8\include_cpp /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D IPLIB=none /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt collections.cpp RunQuery.cpp
-         collections.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Softwares\Siemens\Teamcenter8\include /ID:\Softwares\Siemens\Teamcenter8\include_cpp /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D IPLIB=none /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RunQuery.cpp collections.cpp
          RunQuery.cpp
+         collections.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\RunQuery\Release\RunQuery.exe" /NOLOGO /LIBPATH:D:\Softwares\Siemens\Teamcenter8\lib "D:\Softwares\Siemens\Teamcenter8\lib\*.lib" itk_main.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\RunQuery.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projects\RunQuery\Release\RunQuery.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\RunQuery\Release\RunQuery.lib" /MACHINE:X86 Release\collections.obj
          Release\RunQuery.obj
@@ -19,11 +15,11 @@
          RunQuery.vcxproj -> D:\Projects\RunQuery\Release\RunQuery.exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Projects\RunQuery\Release\RunQuery.exe;#1" /manifest Release\RunQuery.exe.intermediate.manifest
-         
-     1>mt.exe : general error c101008d: Failed to write the updated manifest to the resource of file "D:\Projects\RunQuery\Release\RunQuery.exe". The process cannot access the file because it is being used by another process.
-         
-     1>Done Building Project "D:\Projects\RunQuery\RunQuery\RunQuery.vcxproj" (rebuild target(s)) -- FAILED.
+       FinalizeBuildStatus:
+         Deleting file "Release\RunQuery.unsuccessfulbuild".
+         Touching "Release\RunQuery.lastbuildstate".
+     1>Done Building Project "D:\Projects\RunQuery\RunQuery\RunQuery.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.08
+Time Elapsed 00:00:01.13
